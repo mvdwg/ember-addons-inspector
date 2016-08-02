@@ -49,6 +49,5 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "private": true
+  }
 }
