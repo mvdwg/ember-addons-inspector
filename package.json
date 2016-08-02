@@ -1,6 +1,6 @@
 {
   "name": "ember-addons-inspector",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Inspect the addons included in your Ember application or Ember addon",
   "homepage": "https://github.com/san650/ember-addons-inspector",
   "bugs": "https://github.com/san650/ember-addons-inspector/issues",
