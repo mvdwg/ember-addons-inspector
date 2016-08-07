@@ -10,7 +10,7 @@ inspecting your project and learn all about the addons registered in it.
 List all the addons in the project
 
 ```
-$ ember inspect
+$ ember inspect:all
 
 Inspecting app...
 
