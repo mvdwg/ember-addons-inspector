@@ -10,7 +10,7 @@ inspecting your project and learn all about the addons registered in it.
 List all the addons in the project
 
 ```
-$ ember inspect
+$ ember inspect:all
 
 Inspecting app...
 
@@ -34,21 +34,20 @@ Found 36 addon(s), 0 disabled.
 and then you can inspect an individual addon
 
 ```
-$ ember inspect ember-buffered-proxy
+$ ember inspect ember-cli-mirage
+A client-side mock HTTP server to develop, test and demo your Ember app
 
-Inspecting app...
-
-Found 36 addon(s), 0 disabled.
-
-Inspecting ember-buffered-proxy
-
-  description: An Ember Object Proxy with change buffering
-      version: 0.5.1
-     homepage: https://github.com/yapplabs/ember-buffered-proxy#readme
+      version: 0.1.13
+     homepage: https://github.com/samselikoff/ember-cli-mirage
          bugs: [object Object]
    repository: [object Object]
        author: [object Object]
       license: MIT
+
+   Blueprints:
+     ember-cli-mirage - Installer blueprint
+     factory - Generates a mirage factory.
+     fixture - Generates a mirage fixture.
 ```
 
 This is work in progress and the idea is to add tons of information about the

@@ -6,10 +6,20 @@ function contains(str, value) {
 }
 
 describe('Acceptance', function() {
-  it('prints the list of addons', function(done) {
+  it('ember inspect:all', function(done) {
     this.timeout(300000);
 
-    exec('ember inspect', function(_, stdout) {
+    exec('ember inspect:all', function(_, stdout) {
+      assert.ok(contains(stdout, 'ember-welcome-page (1.0.3)'));
+      assert.ok(contains(stdout, 'Welcome page for Ember-CLI'));
+      done();
+    });
+  });
+
+  it('ember inspect ember-welcome-page', function(done) {
+    this.timeout(300000);
+
+    exec('ember inspect:all', function(_, stdout) {
       assert.ok(contains(stdout, 'ember-welcome-page (1.0.3)'));
       assert.ok(contains(stdout, 'Welcome page for Ember-CLI'));
       done();

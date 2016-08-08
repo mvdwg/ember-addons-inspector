@@ -11,7 +11,7 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember try:each",
+    "test": "npm run nodetest",
     "nodetest": "mocha node-tests --recursive"
   },
   "repository": "https://github.com/san650/ember-addons-inspector.git",
