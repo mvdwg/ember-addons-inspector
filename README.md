@@ -40,9 +40,9 @@ A client-side mock HTTP server to develop, test and demo your Ember app
 
       version: 0.1.13
      homepage: https://github.com/samselikoff/ember-cli-mirage
-         bugs: [object Object]
-   repository: [object Object]
-       author: [object Object]
+         bugs: https://github.com/samselikoff/ember-cli-mirage/issues
+   repository: git+https://github.com/samselikoff/ember-cli-mirage.git
+       author: Sam Selikoff
       license: MIT
 
    Blueprints:
