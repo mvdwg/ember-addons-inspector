@@ -1,4 +1,5 @@
 # ember-addons-inspector
+[![Build Status](https://travis-ci.org/san650/ember-addons-inspector.svg?branch=master)](https://travis-ci.org/san650/ember-addons-inspector)
 ![Latest version](https://img.shields.io/npm/v/ember-addons-inspector.svg)
 
 Get all the information about the addons registered in your Ember project (addon
