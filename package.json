@@ -2,8 +2,8 @@
   "name": "ember-addons-inspector",
   "version": "1.1.0",
   "description": "Inspect the addons included in your Ember application or Ember addon",
-  "homepage": "https://github.com/san650/ember-addons-inspector",
-  "bugs": "https://github.com/san650/ember-addons-inspector/issues",
+  "homepage": "https://github.com/wyeworks/ember-addons-inspector",
+  "bugs": "https://github.com/wyeworks/ember-addons-inspector/issues",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -14,11 +14,15 @@
     "test": "npm run nodetest",
     "nodetest": "mocha node-tests --recursive"
   },
-  "repository": "https://github.com/san650/ember-addons-inspector.git",
+  "repository": "https://github.com/wyeworks/ember-addons-inspector.git",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "Santiago Ferreira",
+  "author": [
+    "Santiago Ferreira <san650@gmail.com>",
+    "Samanta de Barros",
+    "Diego Acosta <acostami@gmail.com>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
