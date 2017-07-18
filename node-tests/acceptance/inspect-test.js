@@ -1,27 +1,25 @@
-var assert = require('assert');
+var assert = require('chai').assert;
 var exec = require('child_process').exec;
 
-function contains(str, value) {
-  return str.indexOf(value) !== -1;
-}
+var PACKAGE = require('ember-ajax/package.json');
 
 describe('Acceptance', function() {
   it('ember inspect:all', function(done) {
     this.timeout(300000);
 
     exec('ember inspect:all', function(_, stdout) {
-      assert.ok(contains(stdout, 'ember-welcome-page (1.0.3)'));
-      assert.ok(contains(stdout, 'Welcome page for Ember-CLI'));
+      assert.include(stdout, PACKAGE.name + ' (' + PACKAGE.version + ')');
+      assert.include(stdout, PACKAGE.description);
       done();
     });
   });
 
-  it('ember inspect ember-welcome-page', function(done) {
+  it('ember inspect ember-source', function(done) {
     this.timeout(300000);
 
     exec('ember inspect:all', function(_, stdout) {
-      assert.ok(contains(stdout, 'ember-welcome-page (1.0.3)'));
-      assert.ok(contains(stdout, 'Welcome page for Ember-CLI'));
+      assert.include(stdout, PACKAGE.name + ' (' + PACKAGE.version + ')');
+      assert.include(stdout, PACKAGE.description);
       done();
     });
   });
