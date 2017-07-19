@@ -1,5 +1,5 @@
 # ember-addons-inspector
-[![Build Status](https://travis-ci.org/san650/ember-addons-inspector.svg?branch=master)](https://travis-ci.org/san650/ember-addons-inspector)
+[![Build Status](https://travis-ci.org/mvdwg/ember-addons-inspector.svg?branch=master)](https://travis-ci.org/mvdwg/ember-addons-inspector)
 ![Latest version](https://img.shields.io/npm/v/ember-addons-inspector.svg)
 
 Get all the information about the addons registered in your Ember project (addon
@@ -65,7 +65,7 @@ $ ember install ember-addons-inspector
 ### Source code
 
 ```
-$ git clone https://github.com/san650/ember-addons-inspector.git
+$ git clone https://github.com/mvdwg/ember-addons-inspector.git
 ```
 
 ### Running Tests

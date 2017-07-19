@@ -2,57 +2,57 @@
   "name": "ember-addons-inspector",
   "version": "1.1.0",
   "description": "Inspect the addons included in your Ember application or Ember addon",
-  "homepage": "https://github.com/san650/ember-addons-inspector",
-  "bugs": "https://github.com/san650/ember-addons-inspector/issues",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
-  },
-  "scripts": {
-    "build": "ember build",
-    "start": "ember server",
-    "test": "npm run nodetest",
-    "nodetest": "mocha node-tests --recursive"
-  },
-  "repository": "https://github.com/san650/ember-addons-inspector.git",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "homepage": "https://github.com/mvdwg/ember-addons-inspector",
+  "bugs": "https://github.com/mvdwg/ember-addons-inspector/issues",
+  "license": "MIT",
   "author": [
     "Santiago Ferreira <san650@gmail.com>",
     "Samanta de Barros",
     "Diego Acosta <acostami@gmail.com>"
   ],
-  "license": "MIT",
-  "devDependencies": {
-    "broccoli-asset-rev": "^2.4.2",
-    "ember-ajax": "^2.0.1",
-    "ember-cli": "2.6.3",
-    "ember-cli-app-version": "^1.0.0",
-    "ember-cli-dependency-checker": "^1.2.0",
-    "ember-cli-htmlbars": "^1.0.3",
-    "ember-cli-htmlbars-inline-precompile": "^0.3.1",
-    "ember-cli-inject-live-reload": "^1.4.0",
-    "ember-cli-jshint": "^1.0.0",
-    "ember-cli-qunit": "^1.4.0",
-    "ember-cli-release": "^0.2.9",
-    "ember-cli-sri": "^2.1.0",
-    "ember-cli-uglify": "^1.2.0",
-    "ember-data": "^2.6.0",
-    "ember-disable-prototype-extensions": "^1.1.0",
-    "ember-export-application-global": "^1.0.5",
-    "ember-load-initializers": "^0.5.1",
-    "ember-resolver": "^2.0.3",
-    "ember-welcome-page": "^1.0.1",
-    "loader.js": "^4.0.1",
-    "mocha": "^3.0.1"
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
   },
-  "keywords": [
-    "ember-addon"
-  ],
+  "repository": "https://github.com/mvdwg/ember-addons-inspector.git",
+  "scripts": {
+    "build": "ember build",
+    "nodetest": "mocha node-tests --recursive",
+    "start": "ember server",
+    "test": "npm run nodetest"
+  },
   "dependencies": {
     "chalk": "^1.1.3",
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^6.3.0"
+  },
+  "devDependencies": {
+    "broccoli-asset-rev": "^2.4.5",
+    "chai": "^4.1.0",
+    "ember-ajax": "^3.0.0",
+    "ember-cli": "~2.14.0",
+    "ember-cli-dependency-checker": "^1.3.0",
+    "ember-cli-eslint": "^3.0.0",
+    "ember-cli-htmlbars": "^2.0.1",
+    "ember-cli-htmlbars-inline-precompile": "^0.4.3",
+    "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-qunit": "^4.0.0",
+    "ember-cli-shims": "^1.1.0",
+    "ember-cli-sri": "^2.1.0",
+    "ember-cli-uglify": "^1.2.0",
+    "ember-cli-updater": "1.0.0",
+    "ember-disable-prototype-extensions": "^1.1.2",
+    "ember-export-application-global": "^2.0.0",
+    "ember-load-initializers": "^1.0.0",
+    "ember-resolver": "^4.0.0",
+    "ember-source": "~2.14.0",
+    "loader.js": "^4.2.3",
+    "mocha": "^3.0.1"
+  },
+  "engines": {
+    "node": "^4.5 || 6.* || >= 7.*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
